@@ -23,3 +23,4 @@ tempArr.forEach(function(letter){
 });
 
 console.log(length/div);
+console.log(tempArr);
