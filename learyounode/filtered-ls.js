@@ -8,7 +8,7 @@ const ext  = '.' + process.argv[3];
 
 fs.readdir(dir, (err,data) => {
     //logs error if it exists
-    if(err){console.log(err)}
+    if(err){callback(err)}
 
     else{
         //filters data to only allow for files that match extension
