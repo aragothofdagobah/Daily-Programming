@@ -1,4 +1,3 @@
-const fs = require('fs');
 const through = require('through2');
 const stream = through(write, end);
 
