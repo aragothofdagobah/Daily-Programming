@@ -1,7 +1,7 @@
 function foo() {
     var bar;
-
+    quux = 'blah';
     function zip() {
-        var quux;
+        let quux = 'value';
     }
 }
